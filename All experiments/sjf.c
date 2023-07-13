@@ -40,7 +40,7 @@ tt[i]=bt[i]+wt[i];
 at+=tt[i];
 printf("\n p%d\t\t%d\t\t%d\t\t%d",i,bt[i],wt[i],tt[i]);
 }
-printf("\n\n\t Average waiting time%f\n\t Average turn around time%f", sum/n,at/n);
+printf("\n\n\t Average waiting time%f\n\t Average turn around time%f",sum,at);
 }
 
 /*Enter the no of process 4
@@ -62,4 +62,4 @@ printf("\n\n\t Average waiting time%f\n\t Average turn around time%f", sum/n,at/
  p3             4               9               13
 
          Average waiting time4.000000
-         Average turn around time7.250000*
+         Average turn around time7.250000*/
