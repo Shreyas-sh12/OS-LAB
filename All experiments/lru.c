@@ -41,7 +41,7 @@ void main(){
                 if(distance[j]>max){
                     max=distance[j];
                     index=j;
-                }
+                         }
             }
             queue[index]=incomingStream[i];
             printFrame(queue,occupied);
